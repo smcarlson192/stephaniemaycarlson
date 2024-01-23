@@ -306,15 +306,7 @@ p {
     gap: 24px; 
     display: inline-flex;
 }
-.navigation-item {
-    color: #1A135A; 
-    font-size: 24px; 
-    font-family: Open Sans;
-    font-weight: 600;
-    text-transform: uppercase; 
-    word-wrap: break-word;
-    display: inline-flex;
-}
+
 .button-1 {
     padding-left: 24px; 
     padding-right: 24px; 

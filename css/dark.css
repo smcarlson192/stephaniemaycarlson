@@ -3,4 +3,133 @@
       color: #000;
       background: #fff;
     }
+    body {
+      background: #212121;
   }
+  h1 {
+    color: #ffffff; 
+  }
+  h2 {
+    color: #ffffff; 
+  }
+  h3 {
+    color: #ffffff; 
+  }
+  h4 {
+    color: #ffffff; 
+  }
+  h5 {
+    color: #ffffff; 
+  }
+  h6 {
+    color: #ffffff; 
+  } 
+  p {
+    color: #E8E7F0; 
+  }
+  header {
+    background: linear-gradient(90deg, #1A135A 0%, #651BB7 25%, #0F39A4 50%, #005A64 75%, #82D742 100%);
+  }
+  .breadcrumb li+li:before {
+    padding: 6px;
+    color: #ffffff;
+    content: "/";
+  }
+  .breadcrumb-item a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .breadcrumb-item a:hover{
+    color: #E8E7F0;
+  }
+  .footer {
+    background: linear-gradient(90deg, #1A135A 0%, #651BB7 25%, #0F39A4 50%, #005A64 75%, #82D742 100%);
+  }
+  .copyright-font {
+    color: #ffffff; 
+  }
+  .button-1 {
+    background: #ffffff; 
+    color: #1A135A;
+}
+.button-1:hover {
+    background: #E8E7F0; 
+    box-shadow: 0px 2px 4px rgba(51, 76, 92, 0.30); 
+}
+.button-circle-1 {
+    background: #ffffff; 
+    color: #1A135A;
+
+}
+.button-circle-1:hover {
+    background: #E8E7F0; 
+}
+.button-circle-2 {
+    background: #E8E7F0; 
+    box-shadow: 0px 2px 4px rgba(51, 76, 92, 0.30); 
+    color: #1A135A;
+}
+.button-circle-2:hover {
+    background: #C9C7D6; 
+}
+.fc-p {
+  color: #E8E7F0; 
+}
+.bxtealbdr {
+  background: #007B88; 
+}
+.bxdktealbdr {
+  background: #005A64; 
+}
+.bxlimebdr {
+  background: #71A31E; 
+}
+.bxdklimebdr {
+  background: #4E7213; 
+}
+.bxgoldbdr {
+  background: #B7750C; 
+}
+.bxdkgoldbdr {
+  background: #8E5905; 
+}
+.bkgdlp {
+  background: #565272;   
+}
+.bkgdcgradient {
+  background: linear-gradient(90deg, #1A135A 0%, #651BB7 25%, #0F39A4 50%, #005A64 75%, #82D742 100%);
+}
+.accordion {
+  background-color: #007B88;
+  color: #ffffff;
+  border-top:#ffffff;
+  border-bottom: #ffffff;
+}
+.active, .accordion:hover {
+  background-color: #49C1CE; 
+}
+.accordion:after {
+  color: #ffffff;
+}
+.project-card {
+  background-color: #565272; 
+}
+.project-card-bottom {
+  background-color: #565272;
+}
+.bkgdblue {
+  background: #000000;
+}
+.item37 {
+  background: #651BB7; 
+}
+.item38 {
+  background: #007B88; 
+}
+.item39 {
+  background: #71A31E; 
+}
+.item40 {
+  background: #0F39A4; 
+}
+}
