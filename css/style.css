@@ -71,10 +71,6 @@ a {
     color: #475569;
 }
 
-.nav-link:hover {
-    color: #482ff7;
-}
-
 .nav-logo {
     width: 275px;
 }
@@ -592,11 +588,9 @@ p {
     font-size: 20px;
     transition: 0.4s;
 }
-  
-.active, .accordion:hover {
+.accordion:hover {
     background-color: #C9C7D6; 
 }
-
 .accordion:after {
     content: '\002B';
     color: #1A135A;
@@ -1239,7 +1233,7 @@ video {
         left: -100%;
         top: 8.5rem;
         flex-direction: column;
-        background-color: #fff;
+        background-color: #ffffff;
         width: 100%;
         border-radius: 10px;
         text-align: center;
@@ -1303,7 +1297,6 @@ video {
         'TBD UXSkills';
     }
     .grid-item, .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10, .item11, .item12, .item13, .item14, .item15 {
-        background-color: #ffffff;
         border: none;
         padding: 24px;
         font-size: 24px;
@@ -1380,7 +1373,6 @@ video {
         grid-template-columns: 1fr 1fr 1fr;
     }
     .item16 {
-        background-color: #ffffff;
         padding-top: 48px;
         padding-bottom: 48px;
     }
@@ -1445,7 +1437,7 @@ video {
         left: -100%;
         top: 8.5rem;
         flex-direction: column;
-        background-color: #fff;
+        background-color: #ffffff;
         width: 100%;
         border-radius: 10px;
         text-align: center;
@@ -1531,7 +1523,6 @@ video {
         'UXSkills';
     }
     .grid-item, .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10, .item11, .item12, .item13, .item14, .item15 {
-        background-color: #ffffff;
         min-width: 362px;
         border: none;
         padding: 24px;
@@ -1658,7 +1649,6 @@ video {
         grid-template-rows: auto auto;
     }
     .item16 {
-        background-color: #ffffff;
         padding-top: 48px;
         padding-bottom: 48px;
     }
