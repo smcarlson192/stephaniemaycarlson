@@ -158,13 +158,13 @@ li {
   border-bottom: 3px solid #ffffff;
 }
 }
-@media only screen and (min-width: 768.1px) and (max-width: 992.9px) {
+@media screen and (prefers-color-scheme:dark) and (min-width: 768.1px) and (max-width: 992.9px) {
   .nav-menu {
       background-color: #000000;
   }
 }
 
-@media only screen and (max-width:768px) {
+@media screen and (prefers-color-scheme:dark) and (max-width:768px) {
 
   .nav-menu {
       background-color: #000000;
