@@ -548,6 +548,9 @@ p {
 .bkgdlp {
     background: #E8E7F0;   
 }
+.bkwht {
+    background: #ffffff;
+}
 .bkgdcgradient {
     background: linear-gradient(90deg, #E2E6F2 0%, #D1EBEE 25%, #E9E0F2 50%, #E2E6F2 76%, #EBF3DE 100%);
 }
