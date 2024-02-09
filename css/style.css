@@ -301,18 +301,7 @@ p {
     gap: 179px; 
     display: inline-flex;
 }
-.nav {
-    justify-content: flex-end; 
-    align-items: flex-start; 
-    gap: 24px; 
-    display: inline-flex;
-}
-.navigation-bar {
-    padding: 12px; 
-    justify-content: center; 
-    align-items: center; 
-    display: inline-flex;
-}
+
 .navbar {
     width: 100%; 
     height: 100%; 
@@ -645,13 +634,13 @@ p {
     align-items: center; 
     display: flex;
 }
+
 .item1 { grid-area: CCftA; }
 .item2 { grid-area: SampleGenius; }
 .item3 { grid-area: PAWS; }
 .item4 { grid-area: TravelGlass; }
 .item5 { grid-area: TBD; }
 .item6 { grid-area: UXSkills; }
-
 
 .grid-container1 {
     display: grid;
@@ -662,7 +651,32 @@ p {
     grid-template-rows: auto auto;
 }
 
-.grid-item, .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10, .item11, .item12, .item13, .item14, .item15 {
+/*
+.grid-3x2 {
+    display: grid;
+    grid-template-areas:
+    'TopLeft TopMiddle TopRight'
+    'BottomLeft BottomMiddle BottomRight';
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto;
+}
+
+.grid-3x2tl { grid-area: TopLeft; }
+.grid-3x2tm { grid-area: TopMiddle; }
+.grid-3x2tr { grid-area: TopRight; }
+.grid-3x2bl { grid-area: BottomLeft; }
+.grid-3x2bm { grid-area: BottomMiddle; }
+.grid-3x2br { grid-area: BottomRight; }
+
+.grid-3x2tl, .grid-3x2tm, .grid-3x2tr, .grid-3x2bl, .grid-3x2bm, .grid-3x2br, .grid-3x3tl, .grid-3x3tm, .grid-3x3tr, .grid-3x3ml, .grid-3x3mm, .grid-3x3mr, .grid-3x3bl, .grid-3x3bm, .grid-3x3br {
+    min-width: 362px;
+    border: none;
+    padding: 24px;
+    font-size: 24px;
+}
+*/
+
+.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10, .item11, .item12, .item13, .item14, .item15 {
     min-width: 362px;
     border: none;
     padding: 24px;
@@ -684,6 +698,36 @@ p {
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
 }
+
+/*
+.grid-3x3 {
+    display: grid;
+    grid-template-areas:
+    'TopLeft TopMiddle TopRight'
+    'MiddleLeft MiddleMiddle MiddleRight'
+    'BottomLeft BottomMiddle BottomRight';
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto;
+}
+
+.grid-3x3tl { grid-area: TopLeft; }
+.grid-3x3tm { grid-area: TopMiddle; }
+.grid-3x3tr { grid-area: TopRight; }
+.grid-3x3ml { grid-area: MiddleLeft; }
+.grid-3x3mm { grid-area: MiddleMiddle; }
+.grid-3x3mr { grid-area: MiddleRight; }
+.grid-3x3bl { grid-area: BottomLeft; }
+.grid-3x3bm { grid-area: BottomMiddle; }
+.grid-3x3br { grid-area: BottomRight; width: 100%;}
+.grid-2x1l {grid-area: Left; padding-top: 255px; padding-bottom: 255px;}
+.grid-2x1r {grid-area: Right; background-color: #E2E6F2; box-shadow: 0px 2px 4px rgba(51, 76, 92, 0.30); border-radius: 8px; padding: 48px; width: 100%;}
+
+.grid-2x1 {
+    display: grid;
+    grid-template-areas: 'Left Right';
+    grid-template-columns: 50% 50%;
+}
+*/
 
 .item7 { grid-area: OPTO; }
 .item8 { grid-area: LA; }
@@ -1194,7 +1238,7 @@ video {
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
 
 }
-@media only screen and (min-width: 768.1px) and (max-width: 992.9px) {
+@media only screen and (min-width: 768.1px) and (max-width: 1126px) {
     h1 {
         font-size: 60px; 
         font-weight: 700; 
@@ -1299,7 +1343,7 @@ video {
         'PAWS TravelGlass' 
         'TBD UXSkills';
     }
-    .grid-item, .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10, .item11, .item12, .item13, .item14, .item15 {
+.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10, .item11, .item12, .item13, .item14, .item15 {
         border: none;
         padding: 24px;
         font-size: 24px;
@@ -1525,7 +1569,7 @@ video {
         'TBD' 
         'UXSkills';
     }
-    .grid-item, .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10, .item11, .item12, .item13, .item14, .item15 {
+  .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10, .item11, .item12, .item13, .item14, .item15 {
         min-width: 362px;
         border: none;
         padding: 24px;
