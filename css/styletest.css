@@ -1079,44 +1079,17 @@ video {
     gap: 24px;
 }
 
-.grid-2x31 { grid-area: 1; }
-.grid-2x32 { grid-area: 2; }
-.grid-2x33 { grid-area: 3; }
-.grid-2x34 { grid-area: 4; }
-.grid-2x35 { grid-area: 5; }
-.grid-2x36 { grid-area: 6; }
-.grid-2x37 { grid-area: 7; }
-.grid-2x38 { grid-area: 8; }
-.grid-2x39 { grid-area: 9; }
-.grid-2x310 { grid-area: 10; }
+.grid-2x3-1 { grid-area: 1; }
+.grid-2x3-2 { grid-area: 2; }
+.grid-2x3-3 { grid-area: 3; }
+.grid-2x3-4 { grid-area: 4; }
+.grid-2x3-5 { grid-area: 5; }
+.grid-2x3-6 { grid-area: 6; }
+.grid-2x3-7 { grid-area: 7; }
+.grid-2x3-8 { grid-area: 8; }
+.grid-2x3-9 { grid-area: 9; }
+.grid-2x3-10 { grid-area: 10; }
 
-.grid-container-2evenfull {
-    display: grid;
-    width: 100%;
-    grid-template-areas:
-    'aaaa bbbb'
-    'cccc dddd'
-    'eeee ffff';
-    grid-template-columns: 48.5% 48.5%;
-    grid-template-rows: auto auto auto;
-    align-items: center;
-    gap: 24px;
-}
-.grid-container-2evenfull2 {
-    display: grid;
-    width: 100%;
-    grid-template-areas:
-    'aaaa bbbb'
-    'cccc cccc'
-    'dddd eeee'
-    'ffff ffff'
-    'ggggg hhhhh'
-    'aaaaa bbbbb';
-    grid-template-columns: 48.5% 48.5%;
-    grid-template-rows: auto auto auto;
-    align-items: center;
-    gap: 24px;
-}
 .grid-container-3x2bxs {
     display: grid;
     grid-template-areas:
@@ -1526,24 +1499,43 @@ video {
         display: grid;
         width: 100%;
         grid-template-areas:
-        'TopLeft' 'TopRight'
+        'TopLeft' 
+        'TopRight'
         'Bottom';
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto;
     }
-    .grid-container-2evenfull {
+
+    .grid-2x3 {
         display: grid;
-        width: 100%;
         grid-template-areas:
-        'aaaa' 
-        'bbbb'
-        'cccc' 
-        'dddd'
-        'eeee' 
-        'ffff';
+        '1' 
+        '2'
+        '3' 
+        '4'
+        '5' 
+        '6';
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto auto auto auto;
     }
+
+    .grid-2x6 {
+        display: grid;
+        grid-template-areas:
+        '1' 
+        '2'
+        '3'
+        '4' 
+        '5'
+        '6'
+        '7' 
+        '8'
+        '9' 
+        '10';
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+    }
+
     .grid-container-complex {
         display: grid;
         width: 100%;
